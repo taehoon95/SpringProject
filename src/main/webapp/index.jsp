@@ -12,6 +12,6 @@
 			<input type="text" name="name" value="asd" required="required"><br>
 			<input type="text" name="age" value="11" required="required"><br>
 			<input type="submit" value="등록" style=" cursor: pointer">
-		</div>
+		</div> 
 	</form>
 </body>

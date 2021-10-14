@@ -6,12 +6,12 @@
   <mapper namespace="Mapper">
 	  <insert id = "insertPerson" parameterType="Pack.Person">
 	  	insert 
-	  	  into person(name,age) 
+	  	  into Person(name,age) 
 	  	values(#{name},#{age})
 	  </insert>
 	  
 	  <select id="selectPerson" resultType="Pack.Person">
-	  	select * 
-	  	  from person
+	  	select name,age 
+	  	  from Person
 	  </select>
   </mapper>
